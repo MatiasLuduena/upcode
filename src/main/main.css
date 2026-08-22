@@ -1,0 +1,35 @@
+main {
+  height: 100vh;
+  background-color: #181c23;
+  color: #e5e7eb;
+  padding: 10px;
+}
+
+main h3 {
+  margin: 10px 0;
+}
+
+main .main-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  height: calc(100vh - 100px);
+}
+
+main .main-box {
+  border: 1px solid #000;
+  height: 100%;
+  padding: 25px 15px 15px;
+}
+
+main .main-box h4 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+main .main-box p {
+  font-size: 0.9em;
+  line-height: 1.75;
+  margin-bottom: 20px;
+}
