@@ -17,9 +17,8 @@ main .main-boxes {
 }
 
 main .main-box {
-  border: 1px solid #000;
-  height: 100%;
-  padding: 25px 15px 15px;
+  height: calc(100vh - 100px);
+  margin: 15px;
 }
 
 main .main-box h4 {
@@ -32,4 +31,11 @@ main .main-box p {
   font-size: 0.9em;
   line-height: 1.75;
   margin-bottom: 20px;
+}
+
+main .main-box iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #eeeeee;
 }
