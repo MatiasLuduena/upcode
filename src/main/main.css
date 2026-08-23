@@ -27,10 +27,19 @@ main .main-box h4 {
   font-size: 1.1em;
 }
 
+main .main-box .main-box_text {
+  padding: 20px;
+  background-color: #1f2937;
+}
+
 main .main-box p {
   font-size: 0.9em;
   line-height: 1.75;
   margin-bottom: 20px;
+}
+
+main .main-box .main-box_editor {
+  height: calc(100% - 95px);
 }
 
 main .main-box iframe {
