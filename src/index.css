@@ -6,6 +6,8 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #181c23;
+  color: #e5e7eb;
 }
 
 /* Global Styles */
@@ -17,17 +19,17 @@ body {
 }
 
 .btn-primary {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #facc15;
+  color: #181c23;
   text-transform: uppercase;
-  font-weight: bold;
-  transition: background-color 0.2s ease;
-  border: 1px solid #007bff;
+  font-weight: 800;
+  transition: background-color 0.3s ease;
   margin-top: 20px;
+  border: 2px solid #facc15;
 }
 
 .btn-primary:hover {
-  background-color: transparent;
+  background-color: #facc15cc;
 }
 
 .error-message {
@@ -35,4 +37,8 @@ body {
   margin-bottom: 0 !important;
   margin-top: 10px;
   font-size: 0.9em;
+}
+
+.hidden {
+  display: none;
 }

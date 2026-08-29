@@ -1,7 +1,6 @@
 main {
   height: 100vh;
-  background-color: #181c23;
-  color: #e5e7eb;
+
   padding: 10px;
 }
 
@@ -32,10 +31,15 @@ main .main-box .main-box_text {
   background-color: #1f2937;
 }
 
-main .main-box p {
+main .main-box_texts p {
   font-size: 0.9em;
   line-height: 1.75;
   margin-bottom: 20px;
+}
+
+main .main-box_texts span {
+  color: #facc15;
+  font-weight: 600;
 }
 
 main .main-box .main-box_editor {
